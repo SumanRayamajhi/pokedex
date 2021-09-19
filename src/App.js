@@ -3,10 +3,13 @@ import Logo from "./Logo";
 import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
 const App = () => {
+  const logWhenClicked = () => {
+    console.log("I have clicked");
+  };
   return (
     <div className="mainContainer">
       <div className="header">
-        <Logo appName="Pokedex" />
+        <Logo handleClick={logWhenClicked} appName="Pokedex" />
       </div>
       <BestPokemon
         name="Squirtle"

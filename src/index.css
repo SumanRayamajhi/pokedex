@@ -35,8 +35,8 @@ code {
   width: 100%;
 }
 .image {
-  height: 18rem;
-  width: 18rem;
+  height: 10rem;
+  width: 15rem;
 }
 .bodyContainer {
   display: flex;
@@ -45,4 +45,11 @@ code {
   align-items: center;
   width: 100%;
   padding: 1.5rem;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
 }
